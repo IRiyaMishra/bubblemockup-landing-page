@@ -1,0 +1,188 @@
+body,
+html {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* navbar header */
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, #bd3664, #ad3566, #933268, #5b286d, #091874, #1b0a70);
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.header .container {
+    max-width: 100%;
+}
+
+.header a {
+    font-size: 15px;
+}
+
+.header .sub {
+    background-image: linear-gradient(to right, #ba3665, #933268, #2d1f71, #150f72);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.sub {
+    padding: 0px 20px;
+}
+
+@media only screen and (max-width:1306px) {
+    .header img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:581px) {
+    .header img {
+        width: 250px;
+        height: auto;
+    }
+
+    .header button {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tog {
+        display: flex;
+        justify-content: end;
+        /* margin-left: 200px; */
+    }
+
+    .header a {
+        width: 100px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tog {
+        margin-left: 140px;
+    }
+
+    .header a {
+        width: 100px;
+    }
+}
+
+
+@media only screen and(max-width:1155px) {
+    .header .container {
+        max-width: 100%;
+    }
+}
+
+/* banner */
+
+#banner .container {
+    max-width: auto;
+
+}
+
+#banner h3 {
+    font-weight: lighter;
+}
+
+.book {
+    background-image: linear-gradient(to right, #ba3665, #933268, #592a6a, #021f6d, #03206a );
+    padding: 10px;
+
+}
+
+/* cards */
+#cards button {
+    background-image: linear-gradient(to right, #ba3665, #933268, #2d1f71, #150f72);
+}
+
+.first {
+    border-right: 1px solid;
+}
+
+.second {
+    border-right: 1px solid;
+}
+
+#cards .row {
+    margin-top: -140px;
+    margin-bottom: 35px;
+    padding-bottom: 3em;
+}
+
+#cards img {
+    width: 300px;
+}
+
+#cards button {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.cb {
+    width: auto;
+    align-self: baseline;
+    margin: auto auto 0;
+}
+
+/* template  */
+
+#template .container{
+    max-width: 100%;
+    background-image: linear-gradient(to right, #bd3664, #ad3566, #933268, #5b286d, #091874, #1b0a70);
+
+    opacity: 70%;
+}
+/* information */
+#information h2{
+    font-size: 18px;
+    opacity: 50%;
+}
+.img1{
+    height: 400px;
+}
+/* subscribe */
+#subscribe {
+    background-image: linear-gradient(to right, #bd3664, #ad3566, #933268, #5b286d, #091874, #1b0a70);
+
+}
+#subscribe button {
+    background-image: linear-gradient(to right, #bd3664, #ad3566, #933268, #5b286d, #091874, #1b0a70);
+
+}
+/* testimonials */
+#Testimonials .img1{
+    width: 100px;
+    height: 100px;
+}
+#Testimonials i{
+    color: #f0606f;
+}
+.para{
+    color:#e95b69 ;
+}
+/* footer  */
+#footer {
+    background-image: linear-gradient(to right, #bd3664, #ad3566, #933268, #5b286d, #091874, #1b0a70);
+}
+.tog{
+    background-image: linear-gradient(to right, #bd3664, #ad3566, #933268, #5b286d, #091874, #1b0a70);
+
+}
